@@ -11,6 +11,10 @@ body, html {
     height: 100%;
   }
 
+  img {
+    border-radius: 10px;
+  }
+
   .container > div {
     height: 100%;
     display: flex;
@@ -21,53 +25,40 @@ body, html {
 
   .text {
     position: absolute;
-    top: 646px;
-    font-size: 160px;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    top: 340px;
+    font-weight: bold;
+    font-size: 99px;
+    color: rgb(255, 255, 255);
+    padding-left: 600px;
   }
 
   .sub {
     position: relative;
     padding: 0px;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     justify-content: center;
     font-family: 'Fjalla One';
   }
 
-  /* h1 {
-    padding: 2em;
-    font-size: 100px;
+  h1 {
+    padding: 1em;
+    font-size: 120px;
+    font-family: 'Fjalla One';
+    position: relative;
+    right: 350px;
     height: 200px;
-  } */
+    width: 200px;
+    background-color: rgb(22, 146, 255);
+  }
 
-/* 
   p {
-    padding: 5em;
-    background-color: aliceblue;
-  } */
-
-  .a {
-      font-size: 20px;
-      background-color: beige;
-  }
-
-  .b {
-    background-color: azure;
-  }
-
-  .c {
-    background-color:white;
-  }
-
-  .d {
-    background-color: white;
-  }
-
-  .e {
-    background-color:white;
+    font-family: 'Scope One';
+    font-size: 26px;
+    position:relative;
+    left: 280px;
+    bottom: 424px;
+    width: 800px;
   }
 
   .parallax {
