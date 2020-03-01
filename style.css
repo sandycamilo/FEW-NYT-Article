@@ -30,9 +30,8 @@ body, html {
 
   .sub {
     position: relative;
-    left: 200px;
     padding: 0px;
-    font-size: 70px;
+    font-size: 40px;
     color: black;
     justify-content: center;
     font-family: 'Fjalla One';
@@ -44,12 +43,11 @@ body, html {
     height: 200px;
   } */
 
-  
-
+/* 
   p {
     padding: 5em;
     background-color: aliceblue;
-  }
+  } */
 
   .a {
       font-size: 20px;
@@ -57,7 +55,7 @@ body, html {
   }
 
   .b {
-    background-color: white;
+    background-color: azure;
   }
 
   .c {
