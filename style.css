@@ -146,14 +146,17 @@ body, html {
     background-color: white;
   }
 
-  #search {
+  .search {
     position: relative;
     right: -400px;
     text-decoration:none;
     background-color: white;
   }
 
-   .options{
+   .Options{
+     position: relative;
+     right: -200px;
+     top: -20px;
 
    }
 
@@ -167,3 +170,4 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
