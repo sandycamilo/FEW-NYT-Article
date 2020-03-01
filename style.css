@@ -52,15 +52,41 @@ body, html {
     background-color: rgb(22, 146, 255);
   }
 
-  p {
+  .first {
     font-family: 'Scope One';
     font-size: 26px;
     position:relative;
     left: 280px;
-    bottom: 424px;
+    bottom: 414px;
     width: 800px;
   }
 
+  h2 {
+    padding: 3em;
+    font-size: 40px;
+    font-family: 'Fjalla One';
+    position: relative;
+    left: 350px;
+    width: 200px;
+    background-color: rgb(22, 146, 255);
+  }
+
+  .second {
+    font-family: 'Scope One';
+    font-size: 29px;
+    position:relative;
+    right: 270px;
+    top: -580px;
+    width: 800px;
+  }
+
+  .b {
+    padding-bottom: 400px;
+  }
+
+  .c {
+    /* padding-top: 100px; */
+  }
   .parallax {
     background-attachment: fixed;
     background-position: center;
