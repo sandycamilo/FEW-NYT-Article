@@ -101,15 +101,21 @@ body, html {
     width: 800px;
   }
 
-
+  h4 {
+    padding: 1em;
+    font-size: 46px;
+    font-family: 'Fjalla One';
+    height: 260px;
+  }
 
   .b {
     padding-bottom: 400px;
   }
-
-  .c {
-    /* padding-top: 100px; */
+  
+  .e {
+    padding-top: -100px;
   }
+
   .parallax {
     background-attachment: fixed;
     background-position: center;
