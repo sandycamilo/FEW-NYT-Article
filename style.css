@@ -26,25 +26,34 @@ body, html {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-
-  }
-
-  h1 {
-    padding: 2em;
-    font-size: 100px;
-    height: 100px;
   }
 
   .sub {
-    padding: 0; 
+    position: relative;
+    left: 200px;
+    padding: 0px;
+    font-size: 70px;
+    color: black;
+    justify-content: center;
+    font-family: 'Fjalla One';
   }
+
+  /* h1 {
+    padding: 2em;
+    font-size: 100px;
+    height: 200px;
+  } */
+
+  
 
   p {
     padding: 5em;
+    background-color: aliceblue;
   }
 
   .a {
       font-size: 20px;
+      background-color: beige;
   }
 
   .b {
