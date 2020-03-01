@@ -126,39 +126,15 @@ body, html {
     padding-bottom:1px;
   }
   
-  .subscribe{
+  .search{
     position: relative;
     left: 1200px;
-    background-color:#637aad;
-    cursor:pointer;
-    color:#ffffff;
-    font-size:12px;
-    padding:10px 24px;
-    text-decoration:none;
   }
   
-  .account{
+  .subscribe{
     position: relative;
-    left: 955px;
-    font-size:12px;
-    padding:10px 24px;
-    text-decoration:none;
-    background-color: white;
+    left: 1400px;
   }
-
-  .search {
-    position: relative;
-    right: -400px;
-    text-decoration:none;
-    background-color: white;
-  }
-
-   .Options{
-     position: relative;
-     right: -200px;
-     top: -20px;
-
-   }
 
   .e {
     padding-top: -100px;
