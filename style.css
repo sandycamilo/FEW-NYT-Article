@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    font-family: 'Scope One', ;
+  }
+
+  body {
+    margin: 100;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .container > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    position: absolute;
+    top: 646px;
+    font-size: 160px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  h1 {
+    padding: 2em;
+    font-size: 100px;
+    height: 100px;
+  }
+
+  .sub {
+    padding: 0; 
+  }
+
+  p {
+    padding: 5em;
+  }
+
+  .a {
+      font-size: 20px;
+  }
+
+  .b {
+    background-color: white;
+  }
+
+  .c {
+    background-color:white;
+  }
+
+  .d {
+    background-color: white;
+  }
+
+  .e {
+    background-color:white;
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nav-bar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+  }
+
+    .nav-bar > a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    background-color: white;
+    color: white;
+    }
+
+    a.selected {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    }
