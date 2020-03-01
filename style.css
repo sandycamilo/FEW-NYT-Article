@@ -13,7 +13,6 @@ body, html {
 
   img {
     border-radius: 8px;
-    padding-top: 200px;
   }
 
   .container > div {
@@ -110,27 +109,54 @@ body, html {
   }
 
   .b {
-    padding-bottom: 400px;
+    padding-bottom: 300px;
   }
   
   .brand-logo{
-     font-size: 20px;
-     font-family: font-family: 'Fjalla One';
-     color:black;
+     font-size: 23px;
+     color: black;
      font-weight: bold;
      padding: 30px;
+     position: relative;
+     left: 740px;
   }
 
   .nav-wrapper{
-    padding: 10px;
-    position: flex;
-    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom:1px;
   }
   
-  button{
+  .subscribe{
+    position: relative;
+    left: 1200px;
+    background-color:#637aad;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:12px;
+    padding:10px 24px;
+    text-decoration:none;
+  }
+  
+  .account{
+    position: relative;
+    left: 955px;
+    font-size:12px;
+    padding:10px 24px;
+    text-decoration:none;
+    background-color: white;
+  }
 
+  #search {
+    position: relative;
+    right: -400px;
+    text-decoration:none;
+    background-color: white;
   }
-  
+
+   .options{
+
+   }
+
   .e {
     padding-top: -100px;
   }
@@ -141,25 +167,3 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .nav-bar {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    display: flex;
-    flex-direction: column;
-  }
-
-    .nav-bar > a {
-    display: block;
-    text-decoration: none;
-    padding: 1em;
-    background-color: white;
-    color: white;
-    }
-
-    a.selected {
-    background-color: rgba(0,0,0,0.5);
-    color: #fff;
-    }
