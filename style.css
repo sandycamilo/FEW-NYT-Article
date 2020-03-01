@@ -80,6 +80,29 @@ body, html {
     width: 800px;
   }
 
+  h3 {
+    padding: 1em;
+    font-size: 46px;
+    font-family: 'Fjalla One';
+    position: relative;
+    right: 350px;
+    height: 260px;
+    width: 400px;
+    background-color: rgb(22, 146, 255);
+  }
+
+  .third {
+    font-family: 'Scope One';
+    font-size: 26px;
+    position:relative;
+    top: -370px;
+    left: 480px;
+    bottom: 414px;
+    width: 800px;
+  }
+
+
+
   .b {
     padding-bottom: 400px;
   }
