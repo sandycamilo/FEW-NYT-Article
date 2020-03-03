@@ -87,53 +87,54 @@ body, html {
     position: relative;
     right: 350px;
     height: 260px;
-    width: 400px;
+    width: 200px;
     background-color: rgb(22, 146, 255);
   }
 
   .third {
     font-family: 'Scope One';
-    font-size: 26px;
+    font-size: 36px;
     position:relative;
-    top: -370px;
-    left: 480px;
-    bottom: 414px;
-    width: 800px;
+    top: -26%;
+    left: 190px;
   }
 
   h4 {
     padding: 1em;
     font-size: 46px;
     font-family: 'Fjalla One';
-    height: 260px;
   }
 
   .b {
     padding-bottom: 300px;
   }
   
+
+  .nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom:1px;
+    justify-content: space-between;
+    align-content: center;
+  }
+
   .brand-logo{
      font-size: 23px;
      color: black;
      font-weight: bold;
-     padding: 30px;
      position: relative;
-     left: 740px;
+     left: 45%;
   }
 
-  .nav-wrapper{
-    padding-top: 15px;
-    padding-bottom:1px;
-  }
-  
   .search{
     position: relative;
-    left: 1200px;
+    left: 25%;
   }
   
   .subscribe{
     position: relative;
-    left: 1400px;
+    left: -8%;
   }
 
   .e {
