@@ -14,6 +14,7 @@ body, html {
 
   img {
     border-radius: 8px;
+    border-color: aquamarine;
   }
 
   .container > div {
@@ -81,21 +82,21 @@ body, html {
     font-family: 'Scope One';
     font-size: 29px;
     position:relative;
-    top: -260px;
+    top: -210px;
     right: 370px;
     width: 800px;
   }
 
   h3 {
     padding: 3.5em;
-    font-size: 40px;
+    font-size: 47px;
     align-items: center;
     font-family: 'Fjalla One';
     position: relative;
-    top: 50px;
+    top: 60px;
     right: 350px;
-    height: 260px;
-    width: 260px;
+    height: 200px;
+    width: 270px;
     background-color: rgb(22, 146, 255);
   }
 
@@ -103,8 +104,8 @@ body, html {
     font-family: 'Scope One';
     font-size: 36px;
     position:relative;
-    top: -43%;
-    left: 190px;
+    top: -380px;
+    left: 310px;
   }
 
   h4 {
